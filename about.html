@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <style>
+        body{background-image: url(./tree-736885_1280.jpg);}
+        @keyframes landing {
+            from{transform: rotateY(0deg)}
+            to{transform: rotateY(360deg)} }
+        @keyframes vibez{from{transform: translate(0%);opacity: 0;}
+                            to{transform: translate(40%);opacity: 1;}}
+        header{display: flex;justify-content: space-between;background-color: rgb(15, 15, 15);color: rgb(233, 227, 227);}
+        img{width: 50px;height: 50px;
+            animation-name:landing ;
+            animation-duration: 8s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count:infinite ;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: both;
+            }
+        div{display: flex;}
+        div ul li a {text-decoration: none;color: rgb(243, 246, 248);display: block; padding: 10px;}
+        div ul li {list-style-type: none;display: inline-block;margin-right: 10px; }
+        div ul li a:hover{color: rgb(14, 12, 12);background-color: gray;}
+        div ul li a:visited{color: rgb(237, 239, 243);}
+        footer{position: absolute;top: calc(-10%-50px);background-color: black;width: 100%;text-align: center;
+                }
+        ul > li{display: inline-block;}
+        a{color: rgb(243, 241, 245);}
+        h3{color: rgb(247, 245, 250);}
+        h1{position: fixed;color: rgb(246, 246, 247);font-family: Arial, Helvetica, sans-serif;text-shadow: 0px 0px 3px rgb(182, 174, 206);
+            font-size: 60px;font-weight: bolder;
+            width: 100%;
+            animation-name: vibez;
+            animation-duration: 15s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial ;
+            animation-direction: alternate;
+            animation-fill-mode: both; }
+       .div{width: 700px;height: 400px;border: 1px solid rgb(245, 241, 241);
+        margin-top: 85px;background-color: rgba(70, 80, 90, 0.6);
+            overflow: hidden;position: relative;margin: 50vh 50%;
+            transform: translate(-50%,-50%);}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./IMG_3694.jpg" alt="" style="border-radius: 4px;">
+        <div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- <footer>
+        <h3><i>CONTACT US ON:</i</h3>
+            <ul class="foot">
+                <li><a href="#"><i>FACEBOOK</i></a></li>
+                <li><a href="#"><i>INSTAGRAM</i></a></li>
+                <li><a href="#"><i>X</i></a></li>
+                <li><a href="#"><i>SNAPCHAT</i></a></li>
+                <li style="color: rgb(241, 7, 7);"><i>07048558171</i></li>
+            </ul>
+    </footer>  -->
+    <h1>VIBEZ INC</h1>
+    <div class="div">
+       <p>VIBEZ INC </p>
+    </div>
+</body>
+</html>
